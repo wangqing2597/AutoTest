@@ -4,3 +4,4 @@
 这是mergedemo分支的内容
 解决冲突
 version1
+version2
