@@ -8,4 +8,8 @@ public class PayTest {
     {
         System.out.println("支付成功");
     }
+    @Test
+    public void payFail(){
+        System.out.println("支付失敗");
+    }
 }
