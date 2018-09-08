@@ -5,6 +5,7 @@
         <class name="com.code.testng.suite.SuiteConfig"></class>
         <class name="com.code.testng.suite.LoginTest"></class>
     </classes>
+
 </test>
 <test name="pay">
 <classes>
