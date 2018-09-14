@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="testGroupOnClass">
+    <test name="RunAll">
+        <classes>
+            <class name="com.code.testng.group.GroupOnClass1"></class>
+            <class name="com.code.testng.group.GroupOnClass2"></class>
+            <class name="com.code.testng.group.GroupOnClass3"></class>
+        </classes>
+    </test>
+    <test name="OnlyRunStu">
+        <groups>
+            <run>
+                <include name="teacher"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.code.testng.group.GroupOnClass1"></class>
+            <class name="com.code.testng.group.GroupOnClass2"></class>
+            <class name="com.code.testng.group.GroupOnClass3"></class>
+        </classes>
+    </test>
+
+</suite>
